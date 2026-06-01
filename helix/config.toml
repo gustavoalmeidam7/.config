@@ -1,4 +1,4 @@
-theme = "transparent_base64_dark.toml"
+theme = "transparent_base64_dark"
 
 [keys.normal]
 "C-y" = [
