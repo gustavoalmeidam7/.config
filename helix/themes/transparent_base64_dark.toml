@@ -1,0 +1,2 @@
+inherits = "base16_default_dark"
+"ui.background" = { bg = "none" }

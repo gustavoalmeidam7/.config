@@ -1,0 +1,11 @@
+theme = "transparent_base64_dark.toml"
+
+[keys.normal]
+"C-y" = [
+    ":sh rm -f /tmp/yazi-file",
+    ":insert-output yazi --chooser-file=/tmp/yazi-file",
+    ":open %sh{cat /tmp/yazi-file}",
+    ":redraw"
+]
+
+
